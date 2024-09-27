@@ -4,7 +4,7 @@ from twilio.rest import Client
 import sys
 
 account_sid = 'ACf49334f0ea0f6c89efa5405c5b7a40f5'
-auth_token = "0aa66c20970c9c83ffddd179a59cf177"
+auth_token = "303d1540f68b9e993431db1f62fa65d0"
 twilio_phone_number = '+18887261654'
 client = Client(account_sid, auth_token)
 
