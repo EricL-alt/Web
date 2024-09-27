@@ -76,10 +76,9 @@ def Scamer(ip):
         except Exception as e:
             pass
     return("None!?")
-print("it works",Scamer('192.168.1.12'))
 
 def NameIsMain(hostname,username,password,remote_script_path,phone_number):
-    port = Scamer(hostname)
+    port = 22
     remote3=remote_script_path
     install_script_on_remote_server(hostname,port,username,password,'checker.py',remote3,phone_number)
     run_script_on_remote_laptop(hostname,port,username,password,remote3,phone_number)
